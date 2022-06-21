@@ -1,4 +1,6 @@
 # Online-Bill-Alert-System
-Bill Alert System  
+e-Bill Alert System  
 <br>
-Bill alert using emails
+e-Bill alert using emails
+
+
