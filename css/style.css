@@ -187,4 +187,9 @@
         background-color: white;
         color: black;
     }
+    .login-content {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
 }
