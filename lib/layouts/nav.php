@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/style.css">
 <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">&nbsp;&nbsp;Bill Alart System</a>
+    <a class="navbar-brand" href="#">&nbsp;&nbsp;e-Bill Alart System</a>
     <span class="navbar-text">
         <a href="lib/views/reg.php">Register</a> &nbsp;&nbsp;&nbsp;   
         <a href="lib/views/login.php"><button class="login-btn-nav"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
