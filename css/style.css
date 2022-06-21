@@ -23,6 +23,87 @@
     transition: 0.5s;
 }
 
-.cls {
-    color: red;
+.home {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+}
+
+.home-content-title {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 450px;
+    padding-right: 490px;
+    padding-top: 250px;
+    font-size: 60px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+.home-content-body {
+    color: white;
+    padding-left: 500px;
+    font-size: 35px;
+}
+
+.home-content-btn {
+    margin-top: 20px;
+    padding-left: 650px;
+}
+
+.home-content-btn .content-btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.home-content-btn .content-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 1400px) {
+    .home-content-title {
+        color: white;
+        text-transform: uppercase;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 200px;
+        font-size: 60px;
+        font-family: 'Fjalla One', sans-serif;
+        font-weight: bold;
+    }
+    .home-content-body {
+        color: white;
+        padding-left: 370px;
+        font-size: 35px;
+    }
+    .home-content-btn {
+        margin-top: 20px;
+        padding-left: 500px;
+    }
+    .home-content-btn .content-btn {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        font-size: 25px;
+        transition: 0.3s;
+    }
+    .home-content-btn .content-btn:hover {
+        background-color: white;
+        color: black;
+    }
 }
