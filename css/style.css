@@ -81,7 +81,20 @@
     padding-right: 450px;
 }
 
+.reg-content {
+    padding-top: 50px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
 .login-content-title {
+    padding-left: 190px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.reg-content-title {
     padding-left: 190px;
     padding-bottom: 50px;
     font-size: 30px;
@@ -96,7 +109,26 @@
     border-radius: 5px;
 }
 
+.reg-box {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
 .login-box-header {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(231, 231, 231, 0.473);
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.reg-box-header {
     padding-top: 10px;
     padding-left: 25px;
     padding-bottom: 10px;
@@ -113,6 +145,12 @@
     padding-right: 70px;
 }
 
+.reg-box-body {
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 70px;
+}
+
 .login-box-body .login-input {
     width: 100%;
     height: 50px;
@@ -121,7 +159,20 @@
     font-size: 20px;
 }
 
+.reg-box-body .login-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
 .login-box-body .login-input::placeholder {
+    color: rgb(182, 182, 182);
+    padding-left: 10px;
+}
+
+.reg-box-body .login-input::placeholder {
     color: rgb(182, 182, 182);
     padding-left: 10px;
 }
@@ -193,4 +244,3 @@
         padding-right: 350px;
     }
 }
-
