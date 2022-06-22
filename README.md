@@ -28,7 +28,6 @@ e-Bill alert using emails
 
 
 <br><br>
-<b>22 June 2022</b><br><br>
 
 
 <b>1.Update</b>
