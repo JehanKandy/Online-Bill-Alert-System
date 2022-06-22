@@ -23,6 +23,292 @@
     transition: 0.5s;
 }
 
-.cls {
-    color: red;
+.login-btn-nav:hover {
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.678), 0 3px 10px 0 rgba(255, 255, 255, 0.596);
+}
+
+.home {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+}
+
+.home-content-title {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 450px;
+    padding-right: 490px;
+    padding-top: 250px;
+    font-size: 60px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+.home-content-body {
+    color: white;
+    padding-left: 500px;
+    font-size: 35px;
+}
+
+.home-content-btn {
+    margin-top: 20px;
+    padding-left: 650px;
+}
+
+.home-content-btn .content-btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.home-content-btn .content-btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 4px 0 rgba(41, 41, 41, 0.678), 0 3px 10px 0 rgba(71, 71, 71, 0.596);
+}
+
+.login-content {
+    padding-top: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.reg-content {
+    padding-top: 50px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.login-content-title {
+    padding-left: 190px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.reg-content-title {
+    padding-left: 190px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.login-box {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.reg-box {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.login-box-header {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(231, 231, 231, 0.473);
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.reg-box-header {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(231, 231, 231, 0.473);
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.login-box-body {
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 70px;
+}
+
+.reg-box-body {
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 70px;
+}
+
+.login-box-body .login-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.reg-box-body .login-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.login-box-body .login-input::placeholder {
+    color: rgb(182, 182, 182);
+    padding-left: 10px;
+}
+
+.reg-box-body .login-input::placeholder {
+    color: rgb(182, 182, 182);
+    padding-left: 10px;
+}
+
+.login-box-body .login-btn {
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    border: none;
+    border-radius: 5px;
+    transition: 1.0s;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.login-box-body .login-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(41, 41, 41, 0.678), 0 3px 10px 0 rgba(71, 71, 71, 0.596);
+    background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
+}
+
+.label {
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.reg-label {
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.reset-btn {
+    width: 49%;
+    margin-top: 20px;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #cccccc, #464646);
+    border: none;
+    border-radius: 5px;
+    transition: 1.0s;
+    color: white;
+    text-transform: uppercase;
+}
+
+.reset-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(41, 41, 41, 0.678), 0 3px 10px 0 rgba(71, 71, 71, 0.596);
+    background: -webkit-linear-gradient(right, #464646, #cccccc);
+}
+
+.reg-btn {
+    width: 49%;
+    margin-top: 20px;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    border: none;
+    border-radius: 5px;
+    transition: 1.0s;
+    color: white;
+    text-transform: uppercase;
+}
+
+.reg-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(41, 41, 41, 0.678), 0 3px 10px 0 rgba(71, 71, 71, 0.596);
+    background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
+}
+
+@media only screen and (max-width: 1400px) {
+    .home-content-title {
+        color: white;
+        text-transform: uppercase;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 200px;
+        font-size: 60px;
+        font-family: 'Fjalla One', sans-serif;
+        font-weight: bold;
+    }
+    .home-content-body {
+        color: white;
+        padding-left: 370px;
+        font-size: 35px;
+    }
+    .home-content-btn {
+        margin-top: 20px;
+        padding-left: 500px;
+    }
+    .home-content-btn .content-btn {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        font-size: 25px;
+        transition: 0.3s;
+    }
+    .home-content-btn .content-btn:hover {
+        background-color: white;
+        color: black;
+    }
+    .login-content {
+        padding-top: 70px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    .reg-content {
+        padding-top: 30px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    .reg-box-body .login-input {
+        width: 100%;
+        height: 45px;
+        border: 1px solid rgb(182, 182, 182);
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .reg-label {
+        color: black;
+        font-family: 'Roboto Flex', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        font-size: 20px;
+    }
+    .reg-box {
+        background-color: white;
+        width: 600px;
+        height: 530px;
+        border: 1px solid rgb(206, 206, 206);
+        border-radius: 5px;
+    }
 }
