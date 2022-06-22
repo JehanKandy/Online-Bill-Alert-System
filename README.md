@@ -46,7 +46,9 @@ e-Bill alert using emails
   - - - lib/views/reg.php<br>
 
 <br>
-<b>2.Develped</b><br>
+
+
+<b>21 June 2022</b><br><br>
 <b>1.Project Started<br></b>
 <b>2.develop <br></b>
   - index.php <br>
