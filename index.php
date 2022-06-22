@@ -13,4 +13,77 @@
     </div>
 </div>
 
+
+<div class="gallery">
+    <div class="gallery-content">
+        <div class="gallery-content-title">
+            Gallery
+        </div>
+        <div class="gallery-content-body">
+            <table border="0">
+                <tr>
+                    <td>
+                        <div class="gallery-box-img1">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gallery-box-img2">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gallery-box-img3">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gallery-box-img4">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="gallery-box-img5">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gallery-box-img6">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gallery-box-img7">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gallery-box-img8">
+                            <div class="img-text">
+                                <i class="far fa-images"></i>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
 <?php include_once("lib/layouts/footer.php"); ?>
