@@ -293,6 +293,165 @@
     padding-left: 1130px;
 }
 
+.gallery {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery-content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gallery-content-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.gallery-content-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gallery-box-img1,
+.gallery-box-img2,
+.gallery-box-img3,
+.gallery-box-img4,
+.gallery-box-img5,
+.gallery-box-img6,
+.gallery-box-img7,
+.gallery-box-img8 {
+    margin: 20px;
+    width: 350px;
+    height: 280px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    transition: 0.5s;
+    color: white;
+}
+
+.gallery-box-img1 {
+    background-image: url(../images/home.jpg);
+}
+
+.gallery-box-img2 {
+    background-image: url(../images/pay.jpg);
+}
+
+.gallery-box-img3 {
+    background-image: url(../images/home.jpg);
+}
+
+.gallery-box-img4 {
+    background-image: url(../images/pay.jpg);
+}
+
+.gallery-box-img5 {
+    background-image: url(../images/home.jpg);
+}
+
+.gallery-box-img6 {
+    background-image: url(../images/pay.jpg);
+}
+
+.gallery-box-img7 {
+    background-image: url(../images/home.jpg);
+}
+
+.gallery-box-img8 {
+    background-image: url(../images/pay.jpg);
+}
+
+.gallery-box-img1:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img2:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img3:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img4:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img5:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img6:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img7:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img8:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.img-text {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
 @media only screen and (max-width: 1400px) {
     .home-content-title {
         color: white;
