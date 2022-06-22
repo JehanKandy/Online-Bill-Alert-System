@@ -336,39 +336,39 @@
 }
 
 .gallery-box-img1 {
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/gallery1.jpg);
 }
 
 .gallery-box-img2 {
-    background-image: url(../images/pay.jpg);
+    background-image: url(../images/gallery2.jpg);
 }
 
 .gallery-box-img3 {
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/gallery3.jpg);
 }
 
 .gallery-box-img4 {
-    background-image: url(../images/pay.jpg);
+    background-image: url(../images/gallery4.jpg);
 }
 
 .gallery-box-img5 {
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/gallery5.jpg);
 }
 
 .gallery-box-img6 {
-    background-image: url(../images/pay.jpg);
+    background-image: url(../images/gallery6.jpg);
 }
 
 .gallery-box-img7 {
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/gallery7_water_tank.jpg);
 }
 
 .gallery-box-img8 {
-    background-image: url(../images/pay.jpg);
+    background-image: url(../images/landline.jpg);
 }
 
 .gallery-box-img1:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery1.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -378,7 +378,7 @@
 }
 
 .gallery-box-img2:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery2.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -388,7 +388,7 @@
 }
 
 .gallery-box-img3:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery3.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -398,7 +398,7 @@
 }
 
 .gallery-box-img4:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery4.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -408,7 +408,7 @@
 }
 
 .gallery-box-img5:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery5.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -418,7 +418,7 @@
 }
 
 .gallery-box-img6:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery6.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -428,7 +428,7 @@
 }
 
 .gallery-box-img7:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery7_water_tank.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -438,7 +438,7 @@
 }
 
 .gallery-box-img8:hover {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/pay.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/landline.jpg);
     background-size: cover;
     color: white;
     font-size: 100px;
@@ -453,6 +453,27 @@
 }
 
 @media only screen and (max-width: 1400px) {
+    .gallery-content {
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    .gallery-box-img1,
+    .gallery-box-img2,
+    .gallery-box-img3,
+    .gallery-box-img4,
+    .gallery-box-img5,
+    .gallery-box-img6,
+    .gallery-box-img7,
+    .gallery-box-img8 {
+        margin: 10px;
+        width: 300px;
+        height: 280px;
+        border: none;
+        border-radius: 5px;
+        background-size: cover;
+        transition: 0.5s;
+        color: white;
+    }
     .home-content-title {
         color: white;
         text-transform: uppercase;
@@ -524,8 +545,8 @@
         height: 100%;
         color: white;
         padding-top: 25px;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-bottom: 2px;
     }
     .footer th {
