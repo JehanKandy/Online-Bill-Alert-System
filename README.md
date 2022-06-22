@@ -52,7 +52,7 @@ e-Bill alert using emails
 <b>2.develop <br></b>
   - <b>lib</b> <br>
   - - lib/layouts <br>
-  - - - lib/layouts/header.php<br>
+  - - - lib/layouts/footer.php<br>
 
 
 ***********************************************
