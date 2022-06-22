@@ -46,8 +46,8 @@ e-Bill alert using emails
   - - - lib/views/reg.php<br>
 
 <br>
-<b>2.Develped</b>
-  - <b>lib</b><br>
+<b>2.Develped</b><br>
+  - lib</b><br>
   - - lib/layouts/footer.php<br>
 
 ***********************************************
