@@ -20,7 +20,9 @@ e-Bill alert using emails
   - - - lib/layouts/nav.php<br>
   - - - lib/layouts/nav_login.php<br>
   - - - lib/layouts/nav_reg.php<br>
-  - 
+  - - lib/views<br>
+  - - - lib/views/login.php<br>
+  - - - lib/views/reg.php<br>
 
 
 
