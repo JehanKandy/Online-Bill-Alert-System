@@ -47,7 +47,8 @@ e-Bill alert using emails
 
 <br>
 <b>2.Develped</b>
-
+  - <b>lib</b>
+  - - lib/layouts/footer.php
 
 ***********************************************
 
