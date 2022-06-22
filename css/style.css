@@ -244,6 +244,55 @@
     background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
 }
 
+.footer {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.904)), url(../images/footer_pay1.jpg);
+    height: 100%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 5px;
+}
+
+.footer-img {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 15px;
+}
+
+.footer th {
+    padding-left: 150px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer td {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 150px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.footer td a {
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+}
+
+.footer td a:hover {
+    color: rgb(187, 187, 187);
+}
+
+.footer p a {
+    color: white;
+}
+
+.footer-infor {
+    padding-left: 1100px;
+}
+
 @media only screen and (max-width: 1400px) {
     .home-content-title {
         color: white;
@@ -310,5 +359,26 @@
         height: 530px;
         border: 1px solid rgb(206, 206, 206);
         border-radius: 5px;
+    }
+    .footer {
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.904)), url(../images/footer_pay1.jpg);
+        height: 100%;
+        color: white;
+        padding-top: 25px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 2px;
+    }
+    .footer th {
+        padding-left: 75px;
+        color: white;
+        font-family: 'Fjalla One', sans-serif;
+        text-transform: uppercase;
+    }
+    .footer td {
+        vertical-align: top;
+        text-align: left;
+        padding-left: 75px;
+        font-family: 'Roboto Flex', sans-serif;
     }
 }
