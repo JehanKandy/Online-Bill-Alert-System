@@ -47,7 +47,6 @@ e-Bill alert using emails
 <br>
 
 
-<b>21 June 2022</b><br><br>
 <b>2.develop <br></b>
   - <b>lib</b> <br>
   - - lib/layouts <br>
