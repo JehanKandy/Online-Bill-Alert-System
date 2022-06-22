@@ -290,7 +290,7 @@
 }
 
 .footer-infor {
-    padding-left: 1100px;
+    padding-left: 1130px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -380,5 +380,8 @@
         text-align: left;
         padding-left: 75px;
         font-family: 'Roboto Flex', sans-serif;
+    }
+    .footer-infor {
+        padding-left: 930px;
     }
 }
