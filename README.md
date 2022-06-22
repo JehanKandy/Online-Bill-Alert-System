@@ -13,7 +13,7 @@ e-Bill alert using emails
 <b>2.develop <br></b>
   - index.php <br>
   - css <br>
-  - lib <br>
+  - <b>lib</b> <br>
   - - lib/layouts <br>
   - - - lib/layouts/header.php<br>
   - - - lib/layouts/nav.php<br>
