@@ -9,17 +9,7 @@ e-Bill alert using emails
 # Development History<br>
 <br>
 
-<b>21 June 2022</b><br><br>
-<b>1.Project Started<br></b>
-<b>2.develop <br></b>
-  - index.php <br>
-  - css <br>
-  - <b>lib</b> <br>
-  - - lib/layouts <br>
-  - - - lib/layouts/header.php<br>
-  - - - lib/layouts/nav.php<br>
-  - - - lib/layouts/nav_login.php<br>
-  - - - lib/layouts/nav_reg.php<br>
+
 
 <b>21 June 2022</b><br>
 1.Project Started<br>
