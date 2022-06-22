@@ -202,6 +202,40 @@
     font-size: 20px;
 }
 
+.reset-btn {
+    width: 49%;
+    margin-top: 20px;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #cccccc, #464646);
+    border: none;
+    border-radius: 5px;
+    transition: 1.0s;
+    color: white;
+    text-transform: uppercase;
+}
+
+.reset-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(41, 41, 41, 0.678), 0 3px 10px 0 rgba(71, 71, 71, 0.596);
+    background: -webkit-linear-gradient(right, #464646, #cccccc);
+}
+
+.reg-btn {
+    width: 49%;
+    margin-top: 20px;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    border: none;
+    border-radius: 5px;
+    transition: 1.0s;
+    color: white;
+    text-transform: uppercase;
+}
+
+.reg-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(41, 41, 41, 0.678), 0 3px 10px 0 rgba(71, 71, 71, 0.596);
+    background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
+}
+
 @media only screen and (max-width: 1400px) {
     .home-content-title {
         color: white;
