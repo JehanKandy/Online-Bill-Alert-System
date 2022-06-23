@@ -35,7 +35,7 @@
 }
 
 .home-content-title {
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     padding-left: 450px;
     padding-right: 490px;
@@ -564,6 +564,12 @@
 .contact-body {
     padding-top: 50px;
     padding-right: 50px;
+    text-align: center;
+}
+
+.contact-body .icons {
+    padding-left: 50px;
+    font-size: 50px;
     text-align: center;
 }
 
