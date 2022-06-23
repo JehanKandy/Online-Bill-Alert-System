@@ -290,7 +290,7 @@
 }
 
 .footer-infor {
-    padding-left: 1130px;
+    padding-left: 1080px;
 }
 
 .gallery {
@@ -544,6 +544,29 @@
     color: black;
 }
 
+.contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-us-content {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.contact-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+}
+
+.contact-body {
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1400px) {
     .service-box-water,
     .service-box-ele,
@@ -668,6 +691,6 @@
         font-family: 'Roboto Flex', sans-serif;
     }
     .footer-infor {
-        padding-left: 930px;
+        padding-left: 860px;
     }
 }
