@@ -31,7 +31,7 @@ e-Bill alert using emails
 <br><br>
 <b>22 June 2022</b><br><br>
 
-<b>1.Update</b>
+<b>1.Update</b><br>
   - index.php <br>
   - css <br>
   - - style.css<br>
