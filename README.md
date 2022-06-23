@@ -57,6 +57,7 @@ e-Bill alert using emails
   - - - lib/layouts/footer.php<br>
 
 
+<hr>
 
 <br><br>
 
