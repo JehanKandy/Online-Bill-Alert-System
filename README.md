@@ -66,8 +66,10 @@ e-Bill alert using emails
   - index.php <br>
   - css <br>
   - - style.css<br>
+
+<br>
+<b>2.Develop
   - Database (e_bill_system)
-  
 
 
 ***********************************************
