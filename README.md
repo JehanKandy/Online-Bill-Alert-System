@@ -72,7 +72,7 @@ e-Bill alert using emails
 <br>
 
 
-<b>2.Update <br></b>
+<b>2.Davelop <br></b>
   - Database (e_bill_system.sql) <br>
 
 
