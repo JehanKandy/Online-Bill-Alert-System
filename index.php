@@ -86,4 +86,54 @@
     </div>
 </div>
 
+<div class="service">
+    <div class="service-content">
+        <div class="service-content-title">
+            Our Services
+        </div>
+        <div class="cervice-content-body">
+            <table>
+                <tr>
+                    <td>
+                        <div class="service-box-water">
+                            <div class="service-box-content">
+                                <div class="service-box-title">
+                                    Water Bills
+                                </div>
+                                <div class="service-box-body">
+                                    Hi all
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="service-box-ele">
+                            <div class="service-box-content">
+                                <div class="service-box-title">
+                                    Electricity Bills
+                                </div> 
+                                <div class="service-box-body">
+                                    Hi all
+                                </div> 
+                            </div>                          
+                        </div>
+                    </td>
+                    <td>
+                        <div class="service-box-tele">
+                            <div class="service-box-content">
+                                <div class="service-box-title">
+                                    Telephone Bills
+                                </div>
+                                <div class="service-box-body">
+                                    Hi all
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
 <?php include_once("lib/layouts/footer.php"); ?>
