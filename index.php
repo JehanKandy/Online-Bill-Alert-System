@@ -101,7 +101,17 @@
                                     Water Bills
                                 </div>
                                 <div class="service-box-body">
-                                    Hi all
+                                   <i class="far fa-credit-card"></i>&nbsp;&nbsp;Paybills online <br>
+                                   <i class="fab fa-android"></i>&nbsp;&nbsp;Using Android App <br>
+                                   <i class="fab fa-apple"></i>&nbsp;&nbsp;Using Apple App <br>
+                                   <i class="fab fa-apple-pay"></i>&nbsp;&nbsp;Using Apple Pay <br>
+                                   <i class="fab fa-cc-amazon-pay"></i>&nbsp;&nbsp;Using Amazon Pay <br>
+                                   <i class="fab fa-cc-paypal"></i>&nbsp;&nbsp;Using Paypal <br>
+
+                                   
+                                   <div class="pay-btn">
+                                        <a href="lib/views/login.php"><button>login to Payment</button></a>
+                                   </div>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +123,16 @@
                                     Electricity Bills
                                 </div> 
                                 <div class="service-box-body">
-                                    Hi all
+                                   <i class="far fa-credit-card"></i>&nbsp;&nbsp;Paybills online <br>
+                                   <i class="fab fa-android"></i>&nbsp;&nbsp;Using Android App <br>
+                                   <i class="fab fa-apple"></i>&nbsp;&nbsp;Using Apple App <br>
+                                   <i class="fab fa-apple-pay"></i>&nbsp;&nbsp;Using Apple Pay <br>
+                                   <i class="fab fa-cc-amazon-pay"></i>&nbsp;&nbsp;Using Amazon Pay <br>
+                                   <i class="fab fa-cc-paypal"></i>&nbsp;&nbsp;Using Paypal <br>
+
+                                   <div class="pay-btn">
+                                        <a href="lib/views/login.php"><button>login to Payment</button></a>
+                                   </div>
                                 </div> 
                             </div>                          
                         </div>
@@ -125,7 +144,17 @@
                                     Telephone Bills
                                 </div>
                                 <div class="service-box-body">
-                                    Hi all
+                                   <i class="far fa-credit-card"></i>&nbsp;&nbsp;Paybills online <br>
+                                   <i class="fab fa-android"></i>&nbsp;&nbsp;Using Android App <br>
+                                   <i class="fab fa-apple"></i>&nbsp;&nbsp;Using Apple App <br>
+                                   <i class="fab fa-apple-pay"></i>&nbsp;&nbsp;Using Apple Pay <br>
+                                   <i class="fab fa-cc-amazon-pay"></i>&nbsp;&nbsp;Using Amazon Pay <br>
+                                   <i class="fab fa-cc-paypal"></i>&nbsp;&nbsp;Using Paypal <br>
+
+                                   
+                                   <div class="pay-btn">
+                                        <a href="lib/views/login.php"><button>login to Payment</button></a>
+                                   </div>
                                 </div>
                             </div>
                         </div>
