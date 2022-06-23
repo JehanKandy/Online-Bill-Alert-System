@@ -26,6 +26,7 @@ e-Bill alert using emails
   - - - lib/views/login.php<br>
   - - - lib/views/reg.php<br>
 
+<hr>
 
 <br><br>
 <b>22 June 2022</b><br><br>
