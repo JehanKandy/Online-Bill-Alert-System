@@ -68,7 +68,7 @@ e-Bill alert using emails
   - - style.css<br>
 
 <br>
-<b>2.Develop<br>
+<b>1.Update <br></b>
   - index.php <br>
 
 
