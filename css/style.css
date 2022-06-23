@@ -35,7 +35,7 @@
 }
 
 .home-content-title {
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     padding-left: 450px;
     padding-right: 490px;
@@ -244,7 +244,371 @@
     background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
 }
 
+.footer {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.904)), url(../images/footer_pay1.jpg);
+    height: 100%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 5px;
+}
+
+.footer-img {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 15px;
+}
+
+.footer th {
+    padding-left: 150px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer td {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 150px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.footer td a {
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+}
+
+.footer td a:hover {
+    color: rgb(187, 187, 187);
+}
+
+.footer p a {
+    color: white;
+}
+
+.footer-infor {
+    padding-left: 1080px;
+}
+
+.gallery {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery-content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gallery-content-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.gallery-content-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gallery-box-img1,
+.gallery-box-img2,
+.gallery-box-img3,
+.gallery-box-img4,
+.gallery-box-img5,
+.gallery-box-img6,
+.gallery-box-img7,
+.gallery-box-img8 {
+    margin: 20px;
+    width: 350px;
+    height: 280px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    transition: 0.5s;
+    color: white;
+}
+
+.gallery-box-img1 {
+    background-image: url(../images/gallery1.jpg);
+}
+
+.gallery-box-img2 {
+    background-image: url(../images/gallery2.jpg);
+}
+
+.gallery-box-img3 {
+    background-image: url(../images/gallery3.jpg);
+}
+
+.gallery-box-img4 {
+    background-image: url(../images/gallery4.jpg);
+}
+
+.gallery-box-img5 {
+    background-image: url(../images/gallery5.jpg);
+}
+
+.gallery-box-img6 {
+    background-image: url(../images/gallery6.jpg);
+}
+
+.gallery-box-img7 {
+    background-image: url(../images/gallery7_water_tank.jpg);
+}
+
+.gallery-box-img8 {
+    background-image: url(../images/landline.jpg);
+}
+
+.gallery-box-img1:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery1.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img2:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery2.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img3:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery3.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img4:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery4.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img5:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery5.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img6:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery6.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img7:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery7_water_tank.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.gallery-box-img8:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/landline.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.img-text {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.service {
+    background-color: rgba(238, 238, 238, 0.568);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.service-content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.service-content-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.service-content-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.service-box-water,
+.service-box-ele,
+.service-box-tele {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.service-box-water {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery3.jpg);
+    background-size: cover;
+}
+
+.service-box-ele {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/gallery6.jpg);
+    background-size: cover;
+}
+
+.service-box-tele {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.7)), url(../images/landline.jpg);
+    background-size: cover;
+}
+
+.service-box-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.service-box-content {
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.pay-btn {
+    padding-top: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.pay-btn button {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.pay-btn button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-us-content {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.contact-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+}
+
+.contact-body {
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.contact-body .icons {
+    padding-left: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1400px) {
+    .service-box-water,
+    .service-box-ele,
+    .service-box-tele {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 400px;
+        height: 500px;
+        border: 1px solid rgb(206, 206, 206);
+        border-radius: 5px;
+    }
+    .service-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .gallery-content {
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    .gallery-box-img1,
+    .gallery-box-img2,
+    .gallery-box-img3,
+    .gallery-box-img4,
+    .gallery-box-img5,
+    .gallery-box-img6,
+    .gallery-box-img7,
+    .gallery-box-img8 {
+        margin: 10px;
+        width: 300px;
+        height: 280px;
+        border: none;
+        border-radius: 5px;
+        background-size: cover;
+        transition: 0.5s;
+        color: white;
+    }
     .home-content-title {
         color: white;
         text-transform: uppercase;
@@ -310,5 +674,29 @@
         height: 530px;
         border: 1px solid rgb(206, 206, 206);
         border-radius: 5px;
+    }
+    .footer {
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.904)), url(../images/footer_pay1.jpg);
+        height: 100%;
+        color: white;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 2px;
+    }
+    .footer th {
+        padding-left: 75px;
+        color: white;
+        font-family: 'Fjalla One', sans-serif;
+        text-transform: uppercase;
+    }
+    .footer td {
+        vertical-align: top;
+        text-align: left;
+        padding-left: 75px;
+        font-family: 'Roboto Flex', sans-serif;
+    }
+    .footer-infor {
+        padding-left: 860px;
     }
 }
