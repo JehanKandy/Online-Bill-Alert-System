@@ -165,4 +165,18 @@
     </div>
 </div>
 
+<div class="contact-us">
+    <div class="contact-us-content">
+        <div class="contact-title">
+            stay with us on 
+        </div>
+        <div class="contact-body">
+            <div class="icons">
+                <i class="fab fa-youtube" style="color: red; padding:15px;"></i><i class="fab fa-instagram" style="color:blueviolet; padding:15px;"></i><i class="fab fa-facebook-square" style="color:blue; padding:15px;"></i><i class="fab fa-viber" style="color:rgb(144, 1, 180); padding:15px;"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <?php include_once("lib/layouts/footer.php"); ?>
