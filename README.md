@@ -67,6 +67,13 @@ e-Bill alert using emails
   - css <br>
   - - style.css<br>
 
+  - Database (e_bill_system)
+  - lib
+  - - function
+  - - - function/config.php
+  
+
+
 
 
 <br>
@@ -74,6 +81,7 @@ e-Bill alert using emails
 
 <b>2.Davelop <br></b>
   - Database (e_bill_system.sql) <br>
+
 
 
 ***********************************************
