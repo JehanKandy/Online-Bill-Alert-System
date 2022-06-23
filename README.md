@@ -72,8 +72,8 @@ e-Bill alert using emails
 <br>
 
 
-<b>1.Update <br></b>
-  - index.php <br>
+<b>2.Update <br></b>
+  - Database (e_bill_system.sql) <br>
 
 
 ***********************************************
