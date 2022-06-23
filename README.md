@@ -66,7 +66,7 @@ e-Bill alert using emails
   - Database (e_bill_system)
   - lib
   - - function
-  - - -function/config.php
+  - - - function/config.php
   
 
 
