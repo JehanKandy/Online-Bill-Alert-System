@@ -108,7 +108,10 @@ don't think about function folder in the root folder<br>
 
 <b>2.Davelop <br></b>
   - lib
-  - - function/function.php
+  - - function
+  - - - lib/function/function.php
+  - - layouts
+  - - - lib/layouts/nav_loged.php
 
 
 
