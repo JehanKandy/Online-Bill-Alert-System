@@ -102,6 +102,10 @@ don't think about function folder in the root folder<br>
   - - function
   - - - function/config.php
   - - - function/function.php
+  - - layouts
+  - - - lib/layouts/nav_loged.php
+  - - views
+  - - - lib/views/logout.php
 
 <br>
 
