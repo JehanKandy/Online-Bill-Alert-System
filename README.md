@@ -104,7 +104,7 @@ don't think about function folder in the root folder<br>
   - lib
   - - function
   - - - function/config.php
-
+  - - - function/functiom.php
 
 <br>
 
