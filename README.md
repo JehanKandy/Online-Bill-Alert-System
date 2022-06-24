@@ -3,7 +3,8 @@ e-Bill Alert System
 <br>
 e-Bill alert using emails
 
-<font color='red'>Important</font>
+<b>Important</b>
+function folder should be go in to lib folder<br>
 
 
 ************************************************
