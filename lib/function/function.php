@@ -51,7 +51,5 @@ function login_user($login_username,$login_password){
     }else{
         return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Recodes not found...!</div>&nbsp</center>";
     }
-
-
 }
 ?>
