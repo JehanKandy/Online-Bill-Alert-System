@@ -15,6 +15,7 @@ don't think about function folder in the root folder<br>
 <br>
 
 
+
 <b>21 June 2022</b><br><br>
 <b>1.Project Started<br></b>
 <b>2.develop <br></b>
@@ -72,26 +73,22 @@ don't think about function folder in the root folder<br>
   - css <br>
   - - style.css<br>
 
-  - Database (e_bill_system)
-  - lib
-  - - function
-  - - - function/config.php
-  
-
-
-
 
 <br>
 
 
 <b>2.Davelop <br></b>
-  - Database (e_bill_system.sql) <br>
+  - Database (e_bill_system)
+  - lib
+  - - function
+  - - - function/config.php
 
 
 
 <hr>
 
 <br><br>
+
 
 <b>24 June 2022</b><br><br>
 <br>
@@ -104,7 +101,7 @@ don't think about function folder in the root folder<br>
   - lib
   - - function
   - - - function/config.php
-  - - - function/functiom.php
+  - - - function/function.php
 
 <br>
 
