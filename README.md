@@ -89,6 +89,35 @@ don't think about function folder in the root folder<br>
 
 
 
+<hr>
+
+<br><br>
+
+<b>23 June 2022</b><br><br>
+<br>
+<b>1.Update <br></b>
+  - index.php <br>
+  - css <br>
+  - - style.css<br>
+
+  - Database (e_bill_system)
+  - lib
+  - - function
+  - - - function/config.php
+  
+
+
+
+
+<br>
+
+
+<b>2.Davelop <br></b>
+  - Database (e_bill_system.sql) <br>
+
+
+
+
 ***********************************************
 
 
