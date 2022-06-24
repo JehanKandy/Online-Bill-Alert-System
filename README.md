@@ -112,6 +112,8 @@ don't think about function folder in the root folder<br>
   - - - lib/function/function.php
   - - layouts
   - - - lib/layouts/nav_loged.php
+  - - views
+  - - - lib/views/logout.php
 
 
 
