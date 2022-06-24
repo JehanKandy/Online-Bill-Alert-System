@@ -3,9 +3,11 @@ e-Bill Alert System
 <br>
 e-Bill alert using emails
 
-<b>Important</b>
+<b>Important</b><br>
 function folder should be go in to lib folder<br>
-
+<br>
+There is function folder in the lib folder<br>
+don't think about function folder in the root folder<br>
 
 ************************************************
 
