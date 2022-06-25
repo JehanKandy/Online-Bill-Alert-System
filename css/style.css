@@ -573,6 +573,64 @@
     text-align: center;
 }
 
+.admin-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #1d1d1d;
+    color: white;
+    min-height: calc(100vh);
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.sidebar .nav-bar li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sidebar .nav-bar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.sidebar .nav-bar li:hover a {
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
+
+.admin-panel {
+    padding-top: 25px;
+    padding-left: 15px;
+    width: 90%;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.logout-btn-nav {
+    width: 100px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(right, #eb1717, #ec6a60);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.logout-btn-nav:hover {
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.678), 0 3px 10px 0 rgba(255, 255, 255, 0.596);
+}
+
 @media only screen and (max-width: 1400px) {
     .service-box-water,
     .service-box-ele,
