@@ -140,7 +140,9 @@ don't think about function folder in the root folder<br>
   - - layouts
   - - - lib/layouts/nav_loged.php
   - - views
-  - - - lib/views/logout.php
+  - - - lib/views/logout.php  
+  - - routes
+  - - - lib/routes/admin.php
 
   
   
@@ -150,8 +152,6 @@ don't think about function folder in the root folder<br>
    - - - lib/routes/admin.php
    - - - lib/routes/user.php
 
-  - - routes
-  - - - lib/routes/admin.php
 
 
 <br>
