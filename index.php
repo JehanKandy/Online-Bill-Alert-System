@@ -1,182 +1,106 @@
-<?php include_once("lib/layouts/header.php"); ?>
-<?php include_once("lib/layouts/nav.php");?>
+<?php 
+  include_once("../function/function.php");
 
-<div class="home">
-    <div class="home-content-title">
-        Welcome to Bill Alert System
-    </div>
-    <div class="home-content-body">
-        Join to get notification about your Bill
-    </div>
-    <div class="home-content-btn">
-        <a href="lib/views/login.php"><button class="content-btn">Join With Us..!</button></a>
-    </div>
-</div>
+  if(empty($_SESSION['loginSession'])){
+      header('location:../views/login.php');
+  }
 
+  include_once("../layouts/header.php");
+  include_once("../layouts/nav_loged.php");
+?>
 
-<div class="gallery">
-    <div class="gallery-content">
-        <div class="gallery-content-title">
-            Gallery
-        </div>
-        <div class="gallery-content-body">
-            <table border="0">
-                <tr>
-                    <td>
-                        <div class="gallery-box-img1">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="gallery-box-img2">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="gallery-box-img3">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="gallery-box-img4">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="gallery-box-img5">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="gallery-box-img6">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="gallery-box-img7">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="gallery-box-img8">
-                            <div class="img-text">
-                                <i class="far fa-images"></i>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
+<div class="admin-content">
+    <section class="sidebar">
+        <ul class="nav-bar">
+            <li><a href="#"><i class='fas fa-tachometer-alt' style='font-size:20px'></i>&nbsp;&nbsp;Dashboard</a></li>
+            <li><a href="#"><i class='fas fa-user-alt' style='font-size:20px'></i>&nbsp;&nbsp;Users</a></li>
+            <li><a href="#"><i class='fas fa-water' style='font-size:20px'></i>&nbsp;&nbsp;Water Bills</a></li>
+            <li><a href="#"><i class='fas fa-lightbulb' style='font-size:20px'></i>&nbsp;&nbsp;Electicity Bills</a></li>
+            <li><a href="#"><i class='fas fa-phone-alt' style='font-size:20px'></i>&nbsp;&nbsp;Telephone Bills</a></li>
 
-<div class="service">
-    <div class="service-content">
-        <div class="service-content-title">
-            Our Services
-        </div>
-        <div class="cervice-content-body">
-            <table>
-                <tr>
-                    <td>
-                        <div class="service-box-water">
-                            <div class="service-box-content">
-                                <div class="service-box-title">
-                                    Water Bills
-                                </div>
-                                <div class="service-box-body">
-                                   <i class="far fa-credit-card"></i>&nbsp;&nbsp;Paybills online <br>
-                                   <i class="fab fa-android"></i>&nbsp;&nbsp;Using Android App <br>
-                                   <i class="fab fa-apple"></i>&nbsp;&nbsp;Using Apple App <br>
-                                   <i class="fab fa-apple-pay"></i>&nbsp;&nbsp;Using Apple Pay <br>
-                                   <i class="fab fa-cc-amazon-pay"></i>&nbsp;&nbsp;Using Amazon Pay <br>
-                                   <i class="fab fa-cc-paypal"></i>&nbsp;&nbsp;Using Paypal <br>
+        </ul>
 
-                                   
-                                   <div class="pay-btn">
-                                        <a href="lib/views/login.php"><button>login to Payment</button></a>
-                                   </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="service-box-ele">
-                            <div class="service-box-content">
-                                <div class="service-box-title">
-                                    Electricity Bills
-                                </div> 
-                                <div class="service-box-body">
-                                   <i class="far fa-credit-card"></i>&nbsp;&nbsp;Paybills online <br>
-                                   <i class="fab fa-android"></i>&nbsp;&nbsp;Using Android App <br>
-                                   <i class="fab fa-apple"></i>&nbsp;&nbsp;Using Apple App <br>
-                                   <i class="fab fa-apple-pay"></i>&nbsp;&nbsp;Using Apple Pay <br>
-                                   <i class="fab fa-cc-amazon-pay"></i>&nbsp;&nbsp;Using Amazon Pay <br>
-                                   <i class="fab fa-cc-paypal"></i>&nbsp;&nbsp;Using Paypal <br>
+    </section>
+    <section class="admin-panel">
+        <div class="container-fluid">
+          <h1 class="display-4">Welcome to Dashboard</h1>
+          <hr>
 
-                                   <div class="pay-btn">
-                                        <a href="lib/views/login.php"><button>login to Payment</button></a>
-                                   </div>
-                                </div> 
-                            </div>                          
-                        </div>
-                    </td>
-                    <td>
-                        <div class="service-box-tele">
-                            <div class="service-box-content">
-                                <div class="service-box-title">
-                                    Telephone Bills
-                                </div>
-                                <div class="service-box-body">
-                                   <i class="far fa-credit-card"></i>&nbsp;&nbsp;Paybills online <br>
-                                   <i class="fab fa-android"></i>&nbsp;&nbsp;Using Android App <br>
-                                   <i class="fab fa-apple"></i>&nbsp;&nbsp;Using Apple App <br>
-                                   <i class="fab fa-apple-pay"></i>&nbsp;&nbsp;Using Apple Pay <br>
-                                   <i class="fab fa-cc-amazon-pay"></i>&nbsp;&nbsp;Using Amazon Pay <br>
-                                   <i class="fab fa-cc-paypal"></i>&nbsp;&nbsp;Using Paypal <br>
-
-                                   
-                                   <div class="pay-btn">
-                                        <a href="lib/views/login.php"><button>login to Payment</button></a>
-                                   </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
-
-<div class="contact-us">
-    <div class="contact-us-content">
-        <div class="contact-title">
-            stay with us on 
-        </div>
-        <div class="contact-body">
-            <div class="icons">
-                <i class="fab fa-youtube" style="color: red; padding:15px;"></i><i class="fab fa-instagram" style="color:blueviolet; padding:15px;"></i><i class="fab fa-facebook-square" style="color:blue; padding:15px;"></i><i class="fab fa-viber" style="color:rgb(144, 1, 180); padding:15px;"></i>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card bg-primary text-white">
+                <div class="card-body">
+                  <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;Students</h4>
+                  <hr style="background-color:white">
+                  <h5>
+                    <b><?php //count_student(); ?></b>
+                  </h5>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
+
+            <div class="col-md-3">
+              <div class="card bg-success text-white">
+                <div class="card-body">
+                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Lecturers</h4>
+                  <hr style="background-color:white">
+                  <h5>
+                    <b><?php //count_teacher(); ?></b>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card bg-success text-white">
+                <div class="card-body">
+                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Lecturers</h4>
+                  <hr style="background-color:white">
+                  <h5>
+                    <b><?php //count_teacher(); ?></b>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card bg-primary text-white">
+                <div class="card-body">
+                  <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;Students</h4>
+                  <hr style="background-color:white">
+                  <h5>
+                    <b><?php //count_student(); ?></b>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card bg-success text-white">
+                <div class="card-body">
+                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Lecturers</h4>
+                  <hr style="background-color:white">
+                  <h5>
+                    <b><?php //count_teacher(); ?></b>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card bg-success text-white">
+                <div class="card-body">
+                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Lecturers</h4>
+                  <hr style="background-color:white">
+                  <h5>
+                    <b><?php //count_teacher(); ?></b>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+    </section>
 </div>
-
-
-<?php include_once("lib/layouts/footer.php"); ?>
