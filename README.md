@@ -132,7 +132,6 @@ don't think about function folder in the root folder<br>
   - index.php <br>
   - css <br>
   - - style.css<br>
-  - Database (e_bill_system)
   - lib
   - - function
   - - - function/config.php
