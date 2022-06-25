@@ -96,7 +96,6 @@ don't think about function folder in the root folder<br>
   - index.php <br>
   - css <br>
   - - style.css<br>
-
   - Database (e_bill_system)
   - lib
   - - function
@@ -133,7 +132,6 @@ don't think about function folder in the root folder<br>
   - index.php <br>
   - css <br>
   - - style.css<br>
-
   - Database (e_bill_system)
   - lib
   - - function
@@ -143,18 +141,10 @@ don't think about function folder in the root folder<br>
   - - - lib/layouts/nav_loged.php
   - - views
   - - - lib/views/logout.php
+  - 
 
 <br>
 
-
-<b>2.Davelop <br></b>
-  - lib
-  - - function
-  - - - lib/function/function.php
-  - - layouts
-  - - - lib/layouts/nav_loged.php
-  - - views
-  - - - lib/views/logout.php
 
 
 
