@@ -141,8 +141,18 @@ don't think about function folder in the root folder<br>
   - - - lib/layouts/nav_loged.php
   - - views
   - - - lib/views/logout.php
+
+  
+  
+<b>2.Develop <br></b>
+   - lib
+   - - routes
+   - - - lib/routes/admin.php
+   - - - lib/routes/user.php
+
   - - routes
   - - - lib/routes/admin.php
+
 
 <br>
 
