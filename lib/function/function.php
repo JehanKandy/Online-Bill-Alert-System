@@ -52,4 +52,16 @@ function login_user($login_username,$login_password){
         return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Recodes not found...!</div>&nbsp</center>";
     }
 }
+
+function user_id(){
+    $con = Connection();
+    $email = strval($_SESSION['loginSession']);
+
+    $check_user_id = "SELECT * FROM user_tbl WHERE email = '$email'";
+    $check_user_id_result = mysqli_query($con,$check_user_id);
+    $check_user_id_row = mysqli_fetch_assoc($check_user_id_result);
+
+    echo($check_user_id_row['username']);
+
+}
 ?>
