@@ -184,7 +184,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-file' style='font-size:40px'></i>&nbsp;All</h4>
+                  <h4><i class='fas fa-file' style='font-size:40px'></i>&nbsp;Bills</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php all_bills(); ?></b>
