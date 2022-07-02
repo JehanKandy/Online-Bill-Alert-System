@@ -168,6 +168,8 @@ don't think about function folder in the root folder<br>
   - - - admin.php
   - - - <b>admin</b>
   - - - - all_user.php
+  - - lib/function
+  - - - lib/function/function.php
   
   
   
