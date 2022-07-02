@@ -145,7 +145,7 @@
             <div class="col-md-3">
               <div class="card bg-warning text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Water</h4>
+                  <h4><i class='fas fa-water' style='font-size:40px'></i>&nbsp;Water</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php water_bills(); ?></b>
@@ -157,7 +157,7 @@
             <div class="col-md-3">
               <div class="card bg-success text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Electicity</h4>
+                  <h4><i class='fas fa-lightbulb' style='font-size:40px'></i>&nbsp;Electicity</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php elec_bills(); ?></b>
@@ -169,7 +169,7 @@
             <div class="col-md-3">
               <div class="card bg-info text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Telephone</h4>
+                  <h4><i class='fas fa-phone-alt' style='font-size:40px'></i>&nbsp;Telephone</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php tele_bills(); ?></b>
@@ -196,7 +196,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Water</h4>
+                  <h4><i class='fas fa-water' style='font-size:40px'></i>&nbsp;Water</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php water_bills(); ?></b>
@@ -208,7 +208,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Electicity</h4>
+                  <h4><i class='fas fa-lightbulb' style='font-size:40px'></i>&nbsp;Electicity</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php elec_bills(); ?></b>
@@ -220,7 +220,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Telephone</h4>
+                  <h4><i class='fas fa-phone-alt' style='font-size:40px'></i>&nbsp;Telephone</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php tele_bills(); ?></b>
@@ -228,9 +228,6 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          
-         
+          </div>        
     </section>
 </div>
