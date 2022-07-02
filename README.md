@@ -156,6 +156,34 @@ hi
 
 
 <br>
+<hr>
+
+<br><br>
+<b>22 June 2022</b><br><br>
+
+<b>1.Update</b><br>
+  - index.php <br>
+  - css <br>
+  - - style.css<br>
+  - <b>lib</b> <br>
+  - - lib/layouts <br>
+  - - - lib/layouts/header.php<br>
+  - - - lib/layouts/nav.php<br>
+  - - - lib/layouts/nav_login.php<br>
+  - - - lib/layouts/nav_reg.php<br>
+  - - lib/views<br>
+  - - - lib/views/login.php<br>
+  - - - lib/views/reg.php<br>
+
+
+
+<br>
+
+
+<b>2.develop <br></b>
+  - <b>lib</b> <br>
+  - - lib/layouts <br>
+  - - - lib/layouts/footer.php<br>
 
 
 
