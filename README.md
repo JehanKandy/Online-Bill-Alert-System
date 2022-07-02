@@ -167,10 +167,16 @@ hi
   - - style.css<br>
   - <b>lib</b> <br>
   - - routes<br>
-  - - - admin.php
-  - - - <b>admin</b>
-  - - - - all_user.php
+  - - - lib/routes/admin.php
+  - - - <b>lib/routes/admin</b>
+  - - - - lib/routes/admin/all_user.php
+
   
+<b>2.Develop <br></b>
+   - lib
+   - - routes
+   - - - lib/routes/admin/all_user.php
+
   
 
 
