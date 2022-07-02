@@ -3,6 +3,7 @@ e-Bill Alert System
 <br>
 e-Bill alert using emails
 
+
 <b>Important</b><br>
 function folder should be go in to lib folder<br>
 <br>
@@ -13,8 +14,6 @@ don't think about function folder in the root folder<br>
 
 # Development History<br>
 <br>
-
-
 
 <b>21 June 2022</b><br><br>
 <b>1.Project Started<br></b>
@@ -62,6 +61,7 @@ don't think about function folder in the root folder<br>
   - - - lib/layouts/footer.php<br>
 
 
+
 <hr>
 
 <br><br>
@@ -105,6 +105,7 @@ don't think about function folder in the root folder<br>
   - - - lib/layouts/nav_loged.php
   - - views
   - - - lib/views/logout.php
+  
 
 <br>
 
@@ -115,8 +116,7 @@ don't think about function folder in the root folder<br>
   - - - lib/function/function.php
   - - layouts
   - - - lib/layouts/nav_loged.php
-  - - views
-  - - - lib/views/logout.php
+
 
 
 
@@ -139,7 +139,9 @@ don't think about function folder in the root folder<br>
   - - layouts
   - - - lib/layouts/nav_loged.php
   - - views
-  - - - lib/views/logout.php
+  - - - lib/views/logout.php  
+  - - routes
+  - - - lib/routes/admin.php
 
   
   
@@ -149,8 +151,6 @@ don't think about function folder in the root folder<br>
    - - - lib/routes/admin.php
    - - - lib/routes/user.php
 
-  - - routes
-  - - - lib/routes/admin.php
 
 
 <br>
@@ -165,12 +165,24 @@ don't think about function folder in the root folder<br>
   - - style.css<br>
   - <b>lib</b> <br>
   - - routes<br>
+
   - - - admin.php
   - - - <b>admin</b>
   - - - - all_user.php
   - - lib/function
   - - - lib/function/function.php
+
+  - - - lib/routes/admin.php
+  - - - <b>lib/routes/admin</b>
+  - - - - lib/routes/admin/all_user.php
+
+
   
+<b>2.Develop <br></b>
+   - lib
+   - - lib/routes
+   - - - lib/routes/admin/all_user.php
+
   
   
 
@@ -179,10 +191,7 @@ don't think about function folder in the root folder<br>
 <br>
 
 
-<b>2.develop <br></b>
-  - <b>lib</b> <br>
-  - - lib/layouts <br>
-  - - - lib/layouts/footer.php<br>
+
 
 
 
