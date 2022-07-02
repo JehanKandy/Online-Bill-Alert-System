@@ -15,8 +15,6 @@ don't think about function folder in the root folder<br>
 # Development History<br>
 <br>
 
-hi
-
 <b>21 June 2022</b><br><br>
 <b>1.Project Started<br></b>
 <b>2.develop <br></b>
