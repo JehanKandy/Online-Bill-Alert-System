@@ -167,6 +167,8 @@ don't think about function folder in the root folder<br>
   - - routes<br>
   - - - <b>lib/routes/admin</b>
   - - - - lib/routes/admin/all_user.php
+  - - lib/function
+  - - - lib/function/function.php
 
 
   
