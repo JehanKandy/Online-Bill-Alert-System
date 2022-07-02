@@ -174,7 +174,7 @@ hi
   
 <b>2.Develop <br></b>
    - lib
-   - - routes
+   - - lib/routes
    - - - lib/routes/admin/all_user.php
 
   
@@ -184,10 +184,7 @@ hi
 <br>
 
 
-<b>2.develop <br></b>
-  - <b>lib</b> <br>
-  - - lib/layouts <br>
-  - - - lib/layouts/footer.php<br>
+
 
 
 
