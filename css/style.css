@@ -104,7 +104,7 @@
 .login-box {
     background-color: white;
     width: 600px;
-    height: 400px;
+    height: 500px;
     border: 1px solid rgb(206, 206, 206);
     border-radius: 5px;
 }
@@ -609,6 +609,7 @@
 .admin-panel {
     padding-top: 25px;
     padding-left: 15px;
+    padding-bottom: 150px;
     width: 90%;
 }
 
