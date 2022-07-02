@@ -82,7 +82,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;Users</h4>
+                  <h4><i class='fas fa-users' style='font-size:40px'></i>&nbsp;Users</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php count_users(); ?></b>
@@ -94,7 +94,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Admins</h4>
+                  <h4><i class='fas fa-user-tie' style='font-size:40px'></i>&nbsp;Admins</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php count_admins(); ?></b>
@@ -106,7 +106,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Staff</h4>
+                  <h4><i class='fas fa-user-tag' style='font-size:40px'></i>&nbsp;Staff</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php count_staff(); ?></b>
@@ -118,7 +118,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Employeers</h4>
+                  <h4><i class='fas fa-user-alt' style='font-size:40px'></i>&nbsp;Employeers</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php count_emp(); ?></b>
@@ -133,7 +133,7 @@
             <div class="col-md-3">
               <div class="card bg-primary text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;Bills</h4>
+                  <h4><i class='fas fa-file' style='font-size:40px'></i>&nbsp;Bills</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php all_bills(); ?></b>
@@ -184,7 +184,7 @@
             <div class="col-md-3">
               <div class="card bg-danger text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;All</h4>
+                  <h4><i class='fas fa-file' style='font-size:40px'></i>&nbsp;All</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php all_bills(); ?></b>
