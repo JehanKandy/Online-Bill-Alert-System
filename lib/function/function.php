@@ -160,6 +160,12 @@ function count_admins(){
 
 function count_dactive_admins(){
     $con = Connection();
+
+    $deactive_admin = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '0'";
+    $deactive_admin_result = mysqli_query($con, $deactive_admin);
+    $count_deactive_admin = mysqli_num_rows($deactive_admin_result);
+
+    echo $count_deactive_admin;
 }
 
 
