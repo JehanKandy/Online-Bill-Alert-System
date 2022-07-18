@@ -152,11 +152,17 @@ function all_users(){
 function count_admins(){
     $con = Connection();
 
-    $count_admin = "SELECT * FROM user_tbl WHERE roll = 'admin'";
+    $count_admin = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '1'";
     $count_admin_result = mysqli_query($con, $count_admin);
     $count_admin_nor = mysqli_num_rows($count_admin_result);
     echo $count_admin_nor;
 }
+
+function count_dactive_admins(){
+    $con = Connection();
+}
+
+
 
 function count_staff(){
     $con = Connection();
