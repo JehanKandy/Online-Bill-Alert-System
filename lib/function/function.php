@@ -72,7 +72,7 @@ function user_id(){
 function count_users(){
     $con = Connection();
 
-    $count_user = "SELECT * FROM user_tbl WHERE roll = 'user'";
+    $count_user = "SELECT * FROM user_tbl WHERE user_status = '1' && roll = 'user'";
     $count_user_result = mysqli_query($con, $count_user);
     $count_user_nor = mysqli_num_rows($count_user_result);
     echo $count_user_nor;
@@ -81,7 +81,7 @@ function count_users(){
 function active_users(){
     $con = Connection();
 
-    $active_user = "SELECT * FROM user_tbl WHERE user_status = '1' && roll = 'user'";
+    $active_user = "SELECT * FROM user_tbl WHERE user_status = '0' && roll = 'user'";
     $active_user_result = mysqli_query($con, $active_user);
     $active_user_nor = mysqli_num_rows($active_user_result);
     echo $active_user_nor;
