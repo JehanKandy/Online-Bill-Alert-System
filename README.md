@@ -199,7 +199,7 @@ don't think about function folder in the root folder<br>
   - lib/routes/admin.php
   - lib/routes/user.php
   - lib/routes/admin/all_user.php
-
+  - lib/routes/admin/all_admin.php
 
   
 <b>2.Develop <br></b>
