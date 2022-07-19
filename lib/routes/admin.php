@@ -10,16 +10,16 @@
 ?>
 
 <div class="admin-content">
-    <section class="sidebar">
+<section id="sidebar">
         <ul class="nav-bar">
-            <li><a href="#"><i class='fas fa-tachometer-alt' style='font-size:20px'></i>&nbsp;&nbsp;Dashboard</a></li>
+            <li><a href="admin.php"><i class='fas fa-tachometer-alt' style='font-size:20px'></i>&nbsp;&nbsp;Dashboard</a></li>
             <li><a href="admin/all_user.php"><i class='fas fa-users' style='font-size:20px'></i>&nbsp;&nbsp;Users</a></li>
-            <li><a href="#"><i class='fas fa-user-tie' style='font-size:20px'></i>&nbsp;&nbsp;Admins</a></li>
-            <li><a href="#"><i class='fas fa-user-tag' style='font-size:20px'></i>&nbsp;&nbsp;Staff</a></li>
-            <li><a href="#"><i class='fas fa-user-alt' style='font-size:20px'></i>&nbsp;&nbsp;Employers</a></li>
-            <li><a href="#"><i class='fas fa-water' style='font-size:20px'></i>&nbsp;&nbsp;Water Bills</a></li>
-            <li><a href="#"><i class='fas fa-lightbulb' style='font-size:20px'></i>&nbsp;&nbsp;Electicity Bills</a></li>
-            <li><a href="#"><i class='fas fa-phone-alt' style='font-size:20px'></i>&nbsp;&nbsp;Telephone Bills</a></li>
+            <li><a href="admin/all_admin.php"><i class='fas fa-user-tie' style='font-size:20px'></i>&nbsp;&nbsp;Admins</a></li>
+            <li><a href="admin/all_staff.php"><i class='fas fa-user-tag' style='font-size:20px'></i>&nbsp;&nbsp;Staff</a></li>
+            <li><a href="admin/all_emp.php"><i class='fas fa-user-alt' style='font-size:20px'></i>&nbsp;&nbsp;Employers</a></li>
+            <li><a href="admin/all_watar_bills.php"><i class='fas fa-water' style='font-size:20px'></i>&nbsp;&nbsp;Water Bills</a></li>
+            <li><a href="admin/all_elec_bills.php"><i class='fas fa-lightbulb' style='font-size:20px'></i>&nbsp;&nbsp;Electicity Bills</a></li>
+            <li><a href="admin/all_tele_bills.php"><i class='fas fa-phone-alt' style='font-size:20px'></i>&nbsp;&nbsp;Telephone Bills</a></li>
 
         </ul>
 
