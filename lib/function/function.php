@@ -72,7 +72,7 @@ function user_id(){
 function count_users(){
     $con = Connection();
 
-    $count_user = "SELECT * FROM user_tbl WHERE roll = 'user'";
+    $count_user = "SELECT * FROM user_tbl WHERE user_status = '1' && roll = 'user'";
     $count_user_result = mysqli_query($con, $count_user);
     $count_user_nor = mysqli_num_rows($count_user_result);
     echo $count_user_nor;
@@ -81,7 +81,7 @@ function count_users(){
 function active_users(){
     $con = Connection();
 
-    $active_user = "SELECT * FROM user_tbl WHERE user_status = '1' && roll = 'user'";
+    $active_user = "SELECT * FROM user_tbl WHERE user_status = '0' && roll = 'user'";
     $active_user_result = mysqli_query($con, $active_user);
     $active_user_nor = mysqli_num_rows($active_user_result);
     echo $active_user_nor;
@@ -152,11 +152,23 @@ function all_users(){
 function count_admins(){
     $con = Connection();
 
-    $count_admin = "SELECT * FROM user_tbl WHERE roll = 'admin'";
+    $count_admin = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '1'";
     $count_admin_result = mysqli_query($con, $count_admin);
     $count_admin_nor = mysqli_num_rows($count_admin_result);
     echo $count_admin_nor;
 }
+
+function count_dactive_admins(){
+    $con = Connection();
+
+    $deactive_admin = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '0'";
+    $deactive_admin_result = mysqli_query($con, $deactive_admin);
+    $count_deactive_admin = mysqli_num_rows($deactive_admin_result);
+
+    echo $count_deactive_admin;
+}
+
+
 
 function count_staff(){
     $con = Connection();

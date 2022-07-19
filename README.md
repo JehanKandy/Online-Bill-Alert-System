@@ -165,16 +165,10 @@ don't think about function folder in the root folder<br>
   - - style.css<br>
   - <b>lib</b> <br>
   - - routes<br>
-
-  - - - admin.php
-  - - - <b>admin</b>
-  - - - - all_user.php
-  - - lib/function
-  - - - lib/function/function.php
-
-  - - - lib/routes/admin.php
   - - - <b>lib/routes/admin</b>
   - - - - lib/routes/admin/all_user.php
+  - - lib/function
+  - - - lib/function/function.php
 
 
   
@@ -211,6 +205,7 @@ don't think about function folder in the root folder<br>
 <b>2.Develop <br></b>
 - js
 - - js/script.js
+
 
 
 
