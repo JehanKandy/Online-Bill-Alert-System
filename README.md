@@ -189,7 +189,24 @@ don't think about function folder in the root folder<br>
 
 
 
-<br>
+<hr>
+
+<br><br>
+<b>02 July 2022</b><br><br>
+
+<b>1.Update</b><br>
+  - lib/function/function.php
+  - lib/routes/admin.php
+  - lib/routes/user.php
+  - lib/routes/admin/all_users.php
+
+
+  
+<b>2.Develop <br></b>
+   - lib
+   - - lib/routes
+   - - - lib/routes/admin/all_user.php
+
 
 
 
