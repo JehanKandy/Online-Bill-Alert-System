@@ -13,8 +13,7 @@
 <div class="admin-content">
     <section class="sidebar">
         <ul class="nav-bar">
-        <li>
-            <a href="../admin.php"><i class='fas fa-tachometer-alt' style='font-size:20px'></i>&nbsp;&nbsp;Dashboard</a></li>
+            <li><a href="../admin.php"><i class='fas fa-tachometer-alt' style='font-size:20px'></i>&nbsp;&nbsp;Dashboard</a></li>
             <li><a href=""><i class='fas fa-users' style='font-size:20px'></i>&nbsp;&nbsp;Users</a></li>
             <li><a href="#"><i class='fas fa-user-tie' style='font-size:20px'></i>&nbsp;&nbsp;Admins</a></li>
             <li><a href="#"><i class='fas fa-user-tag' style='font-size:20px'></i>&nbsp;&nbsp;Staff</a></li>
@@ -31,7 +30,7 @@
           <hr>
 
           <div class="row">
-            <div class="col-md-3">
+          <div class="col-auto" style="width: 490px; margin-top:10px; margin-bottom:50px">
               <div class="card bg-success text-white">
                 <div class="card-body">
                   <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;Active Users</h4>
@@ -43,7 +42,7 @@
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-auto" style="width: 490px; margin-top:10px; margin-bottom:50px">
               <div class="card bg-danger text-white">
                 <div class="card-body">
                   <h4><i class='fas fa-chalkboard-teacher' style='font-size:40px'></i>&nbsp;Deactive Users</h4>
