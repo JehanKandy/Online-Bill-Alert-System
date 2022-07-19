@@ -198,7 +198,7 @@ don't think about function folder in the root folder<br>
   - lib/function/function.php
   - lib/routes/admin.php
   - lib/routes/user.php
-  - lib/routes/admin/all_users.php
+  - lib/routes/admin/all_user.php
 
 
   
