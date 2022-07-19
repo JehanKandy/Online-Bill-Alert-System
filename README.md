@@ -203,9 +203,7 @@ don't think about function folder in the root folder<br>
 
   
 <b>2.Develop <br></b>
-   - lib
-   - - lib/routes
-   - - - lib/routes/admin/all_user.php
+  - js/script.js
 
 
 
