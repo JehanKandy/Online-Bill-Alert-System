@@ -211,6 +211,24 @@ don't think about function folder in the root folder<br>
 - - - - lib/routes/admin/all_admin.php
 
 
+<hr>
+
+<br><br>
+<b>26 July 2022</b><br><br>
+
+<b>1.Update</b><br>
+  - lib/function/function.php
+  - lib/routes/user.php
+
+  
+<b>2.Develop <br></b>
+- js
+- - js/script.js
+- lib
+- - lib/routes
+- - - lib/routes/admin
+- - - - lib/routes/admin/all_admin.php
+
 
 
 
