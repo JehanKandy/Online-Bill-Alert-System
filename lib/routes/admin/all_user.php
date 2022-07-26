@@ -33,7 +33,7 @@
           <div class="col-auto" style="width: 490px; margin-top:10px; margin-bottom:50px">
               <div class="card bg-success text-white">
                 <div class="card-body">
-                  <h4><i class='fas fa-user-graduate' style='font-size:40px'></i>&nbsp;Active Users</h4>
+                  <h4><i class='fas fa-user' style='font-size:40px'></i>&nbsp;Active Users</h4>
                   <hr style="background-color:white">
                   <h5>
                     <b><?php active_users(); ?></b>
@@ -71,18 +71,18 @@
                 Roll
                 </th>
                 <th>
-                Account Type
-                </th>
-                <th>
                 Join Date
                 </th>
                 <th>
                 Account Status
                 </th>
+                <th>
+                See More
+                </th>
             </tr>
             </thead>
             <tbody>
-           <?php //all_admins(); ?>
+           <?php all_users(); ?>
 
             </tbody>
             </table>           
