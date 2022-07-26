@@ -99,35 +99,17 @@ function deactive_users(){
 function all_users(){
     $con = Connection();
 
-    $all_user = "SELECT * FROM user_tbl WHERE roll = 'user'";
+    $all_user = "SELECT * FROM user_tbl WHERE roll = 'user' && user_status = '1'";
     $all_user_result = mysqli_query($con, $all_user);
 
     while($row = mysqli_fetch_assoc($all_user_result)){
-        $user_info =  "<table>
-                    <thead>
+        $user_info =  "
                         <tr>
-                            <th>Username</th>
-                            <th>Full Name</th>
-                            <th>Email</th>
-                            <th>Address</th>
-                            <th>Moile</th>
-                            <th>NIC</th>
-                            <th>Date of Birth</th>
-                            <th>User Status</th>
-                            <th>User Type</th>
-                            <th>Join Date</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
+                            <td>".$row['id']."</td>
                             <td>".$row['username']."</td>
-                            <td>".$row['full_name']."</td>
                             <td>".$row['email']."</td>
-                            <td>".$row['address1']."</td>
-                            <td>".$row['mobile']."</td>
-                            <td>".$row['nic_no']."</td>
-                            <td>".$row['dob']."</td>";
+                            <td>".$row['roll']."</td>
+                            <td>".$row['join_date']."</td>";
                             
                             if($row['user_status'] == 1){
                                 $user_info .="<td><h1 class='badge badge-success'>User Activate</h1></td>";
@@ -136,13 +118,8 @@ function all_users(){
                                 $user_info .="<td><h1 class='badge badge-danger'>User Deactivate</h1></td>";
                             }
 
-                            $user_info .="<td>".$row['roll']."</td>
-                            <td>".$row['join_date']."</td>
-                            <td>Action</td>
-                        </tr>
-
-                    </tbody>
-              </table>";
+                            $user_info .="<td><a href='more_user_infor.php?id=".$row['username']."'><button class='btn btn-primary'>More Infor</button></a></td>
+                        </tr>";
 
               echo $user_info;
     }
