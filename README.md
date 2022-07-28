@@ -233,9 +233,9 @@ don't think about function folder in the root folder<br>
 <b>28 July 2022</b><br><br>
 
 <b>1.Update</b><br>
-  - lib/function/function.php
   - lib/routes/user.php
-
+  - lib/routes/admin/all_admin.php
+  
   
 
 
