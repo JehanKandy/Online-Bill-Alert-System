@@ -21,6 +21,7 @@
             <li><a href="all_watar_bills.php"><i class='fas fa-water' style='font-size:20px'></i>&nbsp;&nbsp;Water Bills</a></li>
             <li><a href="all_elec_bills.php"><i class='fas fa-lightbulb' style='font-size:20px'></i>&nbsp;&nbsp;Electicity Bills</a></li>
             <li><a href="all_tele_bills.php"><i class='fas fa-phone-alt' style='font-size:20px'></i>&nbsp;&nbsp;Telephone Bills</a></li>
+            <li><a href="admin_account.php"><i class='fas fa-user-cog' style='font-size:20px'></i>&nbsp;&nbsp;My Account</a></li>
         </ul>
 
     </section>
