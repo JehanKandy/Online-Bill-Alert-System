@@ -237,9 +237,7 @@ don't think about function folder in the root folder<br>
   - lib/routes/user.php
 
   
-<b>2.Develop <br></b>
-- js
-- - js/script.js
+
 
 
 
